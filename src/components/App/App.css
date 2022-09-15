@@ -4,3 +4,9 @@
   font-family: Century Gothic, Arial, Helvetica, Sans-serif;
   padding-top: 15px;
 }
+
+.page-limits {
+  margin: auto;
+  width: 95%;
+  max-width: 1100px;
+}

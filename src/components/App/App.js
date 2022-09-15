@@ -1,5 +1,6 @@
 import Main from '../Main/Main';
 import Header from '../Header/Header';
+import Contacts from '../Contacts/Contacts';
 
 
 
@@ -8,6 +9,7 @@ function App() {
     <div className="page">
       <Header />
       <Main />
+      <Contacts />
 
     </div>
   );

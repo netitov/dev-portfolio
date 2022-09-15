@@ -1,7 +1,15 @@
-.main {
+/* .main {
   margin: auto;
   width: 95%;
   max-width: 1100px;
+} */
+
+.main::after {
+  opacity: .7;
+  border-bottom: 1px solid#545454;
+  display: block;
+  content: " ";
+  margin-top: 8px;
 }
 
 .main__heading {
@@ -15,6 +23,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -62,11 +71,6 @@
   width: 55%;
 }
 
-/* .card__data_even {
-  text-align: right;
-  order: -1;
-} */
-
 .card:nth-of-type(2n) .card__data {
   text-align: right;
   order: -1;
@@ -95,12 +99,17 @@
 }
 
 .card__link {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
 
+.card__link:first-of-type {
+  margin-right: 15px;
 }
 
 .card__link img {
-  width: 25px;
-  margin-right: 15px;
+  width: 100%;
   opacity: 0.6;
   transition: 0.3s all;
 }

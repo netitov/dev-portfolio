@@ -7,8 +7,8 @@ import siteLink from '../../images/icons8-внешняя-ссылка-30.png';
 
 function Main() {
   return (
-    <main className="main">
-      <h1 className="main__heading">Мои работы</h1>
+    <main className="main page-limits">
+      <h2 className="main__heading">Мои работы</h2>
       <div className="main__card-list">
 
         <div className="main__card card">
