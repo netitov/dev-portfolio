@@ -12,7 +12,7 @@ function Main() {
       <div className="main__card-list">
 
         <div className="main__card card">
-          <a href="http://movies.netitov.ru/" className="card__img-link">
+          <a href="https://movies.netitov.ru/" className="card__img-link">
             <img src={pic} alt="movie-explorer" className="card__img" />
             <div className="card__overlay"></div>
           </a>
@@ -30,14 +30,14 @@ function Main() {
             <a href="https://github.com/T-Nick-13/movies-explorer-frontend" className="card__link">
               <img src={github} alt="github logo"></img>
             </a>
-            <a href="http://movies.netitov.ru/" className="card__link">
+            <a href="https://movies.netitov.ru/" className="card__link">
               <img src={siteLink} alt="link logo"></img>
             </a>
           </div>
         </div>
 
         <div className="main__card card">
-          <a href="http://stafeeva.site/" className="card__img-link">
+          <a href="https://stafeeva.site/" className="card__img-link">
             <img src={pic1} alt="movie-explorer" className="card__img" />
             <div className="card__overlay"></div>
           </a>
@@ -55,7 +55,7 @@ function Main() {
             <a href="https://github.com/T-Nick-13/portfoilio" className="card__link">
               <img src={github} alt="github logo"></img>
             </a>
-            <a href="http://stafeeva.site/" className="card__link">
+            <a href="https://stafeeva.site/" className="card__link">
               <img src={siteLink} alt="link logo"></img>
             </a>
           </div>
@@ -85,7 +85,7 @@ function Main() {
         </div>
 
         <div className="main__card card">
-          <a href="http://admin.stafeeva.site/" className="card__img-link">
+          <a href="https://admin.stafeeva.site/" className="card__img-link">
             <img src={pic3} alt="movie-explorer" className="card__img" />
             <div className="card__overlay"></div>
           </a>
@@ -103,7 +103,7 @@ function Main() {
             <a href="https://github.com/T-Nick-13/portfolio-admin" className="card__link">
               <img src={github} alt="github logo"></img>
             </a>
-            <a href="http://admin.stafeeva.site/" className="card__link">
+            <a href="https://admin.stafeeva.site/" className="card__link">
               <img src={siteLink} alt="link logo"></img>
             </a>
           </div>
