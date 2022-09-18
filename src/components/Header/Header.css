@@ -34,6 +34,14 @@
 
 .header__contacts {
   font-size: 18px;
+  color: #fff;
+  text-decoration:underline 1px;
+  text-decoration-color: transparent;
+  transition: all 0.3s;
+}
+
+.header__contacts:hover {
+  text-decoration-color: #fff;
 }
 
 .header__ul {

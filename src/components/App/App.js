@@ -3,7 +3,6 @@ import Header from '../Header/Header';
 import Contacts from '../Contacts/Contacts';
 
 
-
 function App() {
   return (
     <div className="page">

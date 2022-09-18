@@ -1,7 +1,7 @@
 import pic from '../../images/MovieExpl.jpg';
-import pic1 from '../../images/portf.jpg';
+import pic1 from '../../images/portf2.jpg';
 import pic2 from '../../images/mesto.jpg';
-import pic3 from '../../images/admin.jpg';
+import pic3 from '../../images/admin2.jpg';
 import github from '../../images/GitHub-Mark-Light-64px.png';
 import siteLink from '../../images/icons8-внешняя-ссылка-30.png';
 
@@ -25,18 +25,19 @@ function Main() {
               <li>React</li>
               <li>Express</li>
               <li>API</li>
+              <li>MongoDB</li>
             </ul>
             <a href="https://github.com/T-Nick-13/movies-explorer-frontend" className="card__link">
-              <img src={github}></img>
+              <img src={github} alt="github logo"></img>
             </a>
             <a href="http://movies.netitov.ru/" className="card__link">
-              <img src={siteLink}></img>
+              <img src={siteLink} alt="link logo"></img>
             </a>
           </div>
         </div>
 
         <div className="main__card card">
-          <a href="" className="card__img-link">
+          <a href="http://stafeeva.site/" className="card__img-link">
             <img src={pic1} alt="movie-explorer" className="card__img" />
             <div className="card__overlay"></div>
           </a>
@@ -49,18 +50,19 @@ function Main() {
               <li>React</li>
               <li>Express</li>
               <li>API</li>
+              <li>EmailJS</li>
             </ul>
-            <a href="" className="card__link">
-              <img src={github}></img>
+            <a href="https://github.com/T-Nick-13/portfoilio" className="card__link">
+              <img src={github} alt="github logo"></img>
             </a>
-            <a href="" className="card__link">
-              <img src={siteLink}></img>
+            <a href="http://stafeeva.site/" className="card__link">
+              <img src={siteLink} alt="link logo"></img>
             </a>
           </div>
         </div>
 
         <div className="main__card card">
-          <a href="" className="card__img-link">
+          <a href="https://t-nick-13.github.io/mesto/" className="card__img-link">
             <img src={pic2} alt="movie-explorer" className="card__img" />
             <div className="card__overlay"></div>
           </a>
@@ -71,20 +73,19 @@ function Main() {
             </p>
             <ul className="card__ul">
               <li>React</li>
-              <li>Express</li>
               <li>API</li>
             </ul>
-            <a href="" className="card__link">
-              <img src={github}></img>
+            <a href="https://github.com/T-Nick-13/mesto" className="card__link">
+              <img src={github} alt="github logo"></img>
             </a>
-            <a href="" className="card__link">
-              <img src={siteLink}></img>
+            <a href="https://t-nick-13.github.io/mesto/" className="card__link">
+              <img src={siteLink} alt="link logo"></img>
             </a>
           </div>
         </div>
 
         <div className="main__card card">
-          <a href="" className="card__img-link">
+          <a href="http://admin.stafeeva.site/" className="card__img-link">
             <img src={pic3} alt="movie-explorer" className="card__img" />
             <div className="card__overlay"></div>
           </a>
@@ -97,12 +98,13 @@ function Main() {
               <li>React</li>
               <li>Express</li>
               <li>API</li>
+              <li>MongoDB</li>
             </ul>
-            <a href="" className="card__link">
-              <img src={github}></img>
+            <a href="https://github.com/T-Nick-13/portfolio-admin" className="card__link">
+              <img src={github} alt="github logo"></img>
             </a>
-            <a href="" className="card__link">
-              <img src={siteLink}></img>
+            <a href="http://admin.stafeeva.site/" className="card__link">
+              <img src={siteLink} alt="link logo"></img>
             </a>
           </div>
         </div>
