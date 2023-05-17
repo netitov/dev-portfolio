@@ -1,12 +1,30 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .page {
   min-height: 100vh;
   background: #282828;
-  font-family: Century Gothic, Arial, Helvetica, Sans-serif;
+  font-family: 'Noto Sans Display', Sans-serif, Arial, Helvetica;;
+  font-weight: 300;
   padding-top: 15px;
 }
 
 .page-limits {
   margin: auto;
-  width: 95%;
+  width: 97%;
   max-width: 1100px;
+  animation: opacity 1.5s;
 }
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
