@@ -2,18 +2,28 @@ html{
   scroll-behavior: smooth;
 }
 
+:root {
+  --background-color: #eee9db; /* #F9F9F2 */  /* eee9db */
+  --main-grey: #666561;
+  --page-width: 98%;
+  --max-width: 1200px;
+}
+
 .page {
   min-height: 100vh;
-  background: #282828;
-  font-family: 'Noto Sans Display', Sans-serif, Arial, Helvetica;;
+  /* background: #282828; */
+  background-color: var(--background-color);
+  font-family: 'Noto Sans Display', Sans-serif, Arial, Helvetica;
   font-weight: 300;
   padding-top: 15px;
+  font-size: 16px;
+  color: var(--main-grey);
 }
 
 .page-limits {
   margin: auto;
-  width: 97%;
-  max-width: 1100px;
+  width: var(--page-width);
+  max-width: var(--max-width);
   animation: opacity 1.5s;
 }
 
