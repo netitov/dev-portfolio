@@ -37,7 +37,7 @@ export const cards = [
     url: 'https://lfcstats.netitov.ru/',
     img: [lfc, lfc2, lfc3],
     description: 'Футбольная статистика: получение статистики, новостей и youtube видео с разных источников через API, автоматическое регулярное обновление данных в БД, интерактивные диаграммы и таблицы.',
-    descriptionEn: 'Football club Liverpool: мiew results, fixtures, team statistics, latest news, compare players, and more',
+    descriptionEn: 'Football club Liverpool: view results, fixtures, team statistics, latest news, compare players, and more',
     techs: ['React', 'Chart JS', 'Express', 'MongoDB'],
     github: 'https://github.com/netitov/lfcstat',
   },

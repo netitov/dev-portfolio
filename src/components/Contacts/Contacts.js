@@ -1,5 +1,6 @@
 import { IoMdMail } from 'react-icons/io';
 import { FaTelegram } from 'react-icons/fa';
+import { BsGithub } from 'react-icons/bs';
 
 function Contacts() {
   return (
@@ -14,6 +15,10 @@ function Contacts() {
         <a href="mailto:netitov@gmail.com" className="contacts__link">
           <IoMdMail />
           <p className="contacts__title">netitov@gmail.com</p>
+        </a>
+        <a href="https://github.com/netitov" className="contacts__link">
+          <BsGithub />
+          <p className="contacts__title">netitov</p>
         </a>
       </div>
     </section>

@@ -4,7 +4,8 @@ import Card from '../Card/Card';
 function Main() {
 
   return (
-    <main className="main">
+    <main className="main" >
+      <a name="works"></a>
       <h2 className="main__heading">WORKS</h2>
 
       <div className="main__card-list">

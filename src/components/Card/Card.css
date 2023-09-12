@@ -104,38 +104,49 @@
 
 @media (max-width: 900px) {
   .card__description {
-    font-size: 16px;
+    font-size: 1.1em;
   }
 
   .card__heading {
-    font-size: 22px;
+    font-size: 1.5em;
   }
+
 }
 
 @media (max-width: 780px) {
 
   .card {
     flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
   }
 
   .card__data {
     width: 80%;
+    margin: 0;
+    background-color: transparent;
+    padding: 5px;
   }
 
   .card:nth-of-type(2n) .card__data {
     text-align: start;
     order: 0;
+    margin: 0;
   }
 
   .card:nth-of-type(2n) .card__data .card__ul {
     justify-content: start;
+  }
+
+  .card:nth-of-type(2n) .card__data .car__link-box {
+    justify-content: flex-start;
   }
 }
 
 @media (max-width: 600px) {
 
   .card__data {
-    width: 100%;
+    width: 95%;
   }
 
 }

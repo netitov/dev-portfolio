@@ -20,7 +20,7 @@ function Promo() {
         </motion.p>
         <h1 className="promo__heading">FRONT-END DEVELOPER</h1>
         <p className="promo__description">Here you can find some of my latest works<br/> Scroll down to view them</p>
-        <a className="promo__circle-wrapper" to="/#contact" title="go to the works"
+        <a className="promo__circle-wrapper" href="#works" title="go to the works"
         >
           <svg viewBox="0 0 100 100" className="promo__circle usage__circle">
             <defs>
