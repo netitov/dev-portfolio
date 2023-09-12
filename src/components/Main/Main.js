@@ -2,14 +2,13 @@ import { cards } from '../../utils/constants';
 import Card from '../Card/Card';
 
 function Main() {
-
   return (
-    <main className="main" >
-      <a name="works"></a>
-      <h2 className="main__heading">WORKS</h2>
+    <main className='main'>
+      <a name='works'></a>
+      <h2 className='main__heading'>WORKS</h2>
 
-      <div className="main__card-list">
-        {cards.slice(0,4).map((i, index) => {
+      <div className='main__card-list'>
+        {cards.map((i, index) => {
           return (
             <Card
               title={i.title}
@@ -19,9 +18,9 @@ function Main() {
               techs={i.techs}
               github={i.github}
               key={i.title}
-              x={(index % 2 === 0) ? '100%' : '-100%'}
+              x={index % 2 === 0 ? '100%' : '-100%'}
             />
-          )
+          );
         })}
       </div>
 
@@ -34,7 +33,6 @@ function Main() {
           <li>MongoDB</li>
         </ul>
       </div>
-
     </main>
   );
 }

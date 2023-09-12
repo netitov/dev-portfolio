@@ -74,21 +74,20 @@
   left: 50%;
   top: 50%;
   font-size: 2.6em;
-  font-family: "Archivo Black", "Raleway", Sans-serif, Arial;
+  font-family: 'Archivo Black', 'Raleway', Sans-serif, Arial;
   color: #dfd7a3;
   transition: var(--standart-transition);
 }
 
-@media(max-width: 997px) {
+@media (max-width: 997px) {
   .promo__circle-wrapper {
     right: -24px;
     z-index: 1;
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .promo__circle-wrapper {
-
   }
 
   .promo__heading {
@@ -100,7 +99,7 @@
   }
 }
 
-@media(max-width: 570px) {
+@media (max-width: 570px) {
   .promo__circle-wrapper {
     right: -24px;
     z-index: 0;

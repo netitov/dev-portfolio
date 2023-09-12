@@ -3,10 +3,9 @@ import Header from '../Header/Header';
 import Contacts from '../Contacts/Contacts';
 import Promo from '../Promo/Promo';
 
-
 function App() {
   return (
-    <div className="page">
+    <div className='page'>
       <Header />
       <Promo />
       <Main />

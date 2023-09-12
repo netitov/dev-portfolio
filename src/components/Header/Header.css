@@ -6,7 +6,6 @@
   z-index: 5;
 }
 
-
 .header__nav {
   display: flex;
   align-items: center;
@@ -41,7 +40,7 @@
 
 .header__btn:hover {
   background-color: var(--main-grey);
-  color: var(--background-color)
+  color: var(--background-color);
 }
 
 /* .header__logo:after {
@@ -101,9 +100,7 @@
 }
 
 @media (max-width: 600px) {
-
   .header__logo span {
     display: none;
   }
-
 }
