@@ -10,7 +10,7 @@ function Promo() {
           animate={{ y: 0 }}
           initial={{ y: '100%' }}
           transition={{
-            delay: 0.2,
+            delay: 0.4,
             duration: 1,
             type: 'spring',
             bounce: 0.4,
