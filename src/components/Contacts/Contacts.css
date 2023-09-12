@@ -1,15 +1,21 @@
 .contacts__link {
   display: flex;
-  color: #fff;
-  opacity: 0.6;
+  color: var(--main-grey);
   transition: all 0.3s;
   width: fit-content;
   align-items: center;
   text-decoration: underline 1px;
+  font-size: 1.3em;
 }
 
 .contacts__link:hover {
-  opacity: 1;
+  opacity: 0.8;
+}
+
+.contacts__link > svg {
+  width: 27px;
+  height: 27px;
+  margin-right: 5px;
 }
 
 .contacts__title {
@@ -21,9 +27,10 @@
   display: flex;
   gap: 25px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.contacts__img {
+/* .contacts__img {
   width: 40px;
   margin-right: 3px;
-}
+} */
