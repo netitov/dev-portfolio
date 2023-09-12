@@ -4,26 +4,40 @@
   max-width: 1100px;
 } */
 
-.main::after {
-  opacity: .7;
-  border-bottom: 1px solid#545454;
-  display: block;
-  content: " ";
-  margin-top: 8px;
+.main {
+  background-color: var(--dark-grey); /* #4c493d */
+  color: var(--background-color);
+  padding: 30px 0;
 }
 
 .main__heading {
-  font-weight: 400;
-  color: #fff;
-  font-size: 27px;
-  margin: 30px 0 30px;
+  font-size: 2.5em;
+  margin-top: 40px;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 5px;
 }
 
 .main__card-list {
   display: flex;
   flex-direction: column;
+  gap: 6em;
+  width: var(--page-width);
+  max-width: var(--max-width);
+  margin: 70px auto;
+}
+
+.main__techs > ul {
+  font-weight: 200;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
   gap: 30px;
-  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 900px) {

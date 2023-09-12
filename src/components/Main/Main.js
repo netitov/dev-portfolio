@@ -4,11 +4,11 @@ import Card from '../Card/Card';
 function Main() {
 
   return (
-    <main className="main page-limits">
-      <h2 className="main__heading">Projects</h2>
-      <div className="main__card-list">
+    <main className="main">
+      <h2 className="main__heading">WORKS</h2>
 
-        {cards.map((i) => {
+      <div className="main__card-list">
+        {cards.slice(0,4).map((i) => {
           return (
             <Card
               title={i.title}
@@ -21,8 +21,18 @@ function Main() {
             />
           )
         })}
-
       </div>
+
+      <div className='main__techs'>
+        <ul>
+          <li>React</li>
+          <li>JavaScript</li>
+          <li>Redux</li>
+          <li>Express.js</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+
     </main>
   );
 }

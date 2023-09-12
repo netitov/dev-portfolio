@@ -9,13 +9,12 @@
   display: flex;
   position: relative;
   width: 100%;
+  max-width: 950px;
+  box-shadow: 0px 0px 34px 5px #39393799;
 }
 
 .card__img {
   width: 100%;
-  /* min-width: 350px; */
-  /* height: 300px; */
-  border-radius: 15px;
   position: relative;
   object-fit: cover;
   object-position: left;
@@ -23,44 +22,53 @@
 
 .card__overlay {
   position: absolute;
-  background-color: #21222b8f;
+  background-color: #363430a1;
   opacity: 1;
-  /* min-width: 350px; */
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
   transition: 0.3s all linear;
-  border-radius: 15px;
+
 }
 
 .card__overlay:hover {
-  opacity: 0;
+  opacity: 0.6;
 }
 
 .card__data {
-  color: #9f9f9f;
+  color: var(--background-color);
   width: 55%;
+  margin-left: -25%;
+  z-index: 1;
+  background-color: var(--dark-grey);
+  opacity: 0.95;
+  padding: 10px;
 }
 
 .card:nth-of-type(2n) .card__data {
   text-align: right;
   order: -1;
+  margin-left: 0;
+  margin-right: -25%;
 }
 
 .card:nth-of-type(2n) .card__data .card__ul {
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .card__heading {
-  color: #fff;
-  font-weight: 400;
+  font-weight: 200;
   margin: 0;
-  font-size: 24px;
+  font-size: 1.7em;
+  color: #ffcb5e;
+  letter-spacing: 2px;
 }
 
 .card__description {
-  font-size: 18px;
+  font-size: 1.3em;
+  font-weight: 200;
+  line-height: 1.3em;
 }
 
 .card__ul {
@@ -70,23 +78,27 @@
   gap: 10px;
 }
 
-.card__link {
-  display: inline-block;
-  width: 25px;
-  height: 25px;
+.car__link-box {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
 }
 
-.card__link:first-of-type {
-  margin-right: 15px;
+.card:nth-of-type(2n) .card__data .car__link-box {
+  justify-content: flex-end;
 }
 
-.card__link img {
+.card__link svg {
   width: 100%;
+  display: block;
   opacity: 0.6;
   transition: 0.3s all;
+  width: 25px;
+  height: 25px;
+  color: var(--background-color);
 }
 
-.card__link img:hover {
+.card__link svg:hover {
   opacity: 1;
 }
 

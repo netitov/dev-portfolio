@@ -19,14 +19,25 @@ import movie2 from '../images/Movies-explorer3.png';
 import portAd from '../images/Portfolio-admin.png';
 import portAd1 from '../images/Portfolio-admin2.png';
 
+import wordslearner from '../images/words_learner.png';
+
 
 export const cards = [
+  {
+    title: 'Words Learner',
+    url: 'https://wordslearner.site',
+    img: [wordslearner],
+    description: '',
+    descriptionEn: 'Service helps to learn words and master languages efficiently: translate, controll process, check word usages and much more',
+    techs: ['React', 'Chart JS', 'Express', 'MongoDB'],
+    github: 'https://github.com/netitov/words-learner',
+  },
   {
     title: 'LfcStats',
     url: 'https://lfcstats.netitov.ru/',
     img: [lfc, lfc2, lfc3],
     description: 'Футбольная статистика: получение статистики, новостей и youtube видео с разных источников через API, автоматическое регулярное обновление данных в БД, интерактивные диаграммы и таблицы.',
-    descriptionEn: 'Football stats: fetching stats, news and videos from different sources via API, auto data updating in the database, interactive graphs and tables',
+    descriptionEn: 'Football club Liverpool: мiew results, fixtures, team statistics, latest news, compare players, and more',
     techs: ['React', 'Chart JS', 'Express', 'MongoDB'],
     github: 'https://github.com/netitov/lfcstat',
   },
@@ -35,7 +46,7 @@ export const cards = [
     url: 'https://stafeeva.site/',
     img: [portf, portf1, portf2],
     description: 'Просмотр изображений; форма обратной связи с отправкой по email',
-    descriptionEn: 'View illustrations in grid layout and slider; page navigation with React Router; contact form with email sending',
+    descriptionEn: 'View illustrations, check usage examples, find author information, and access the contact form',
     techs: ['React', 'CSS', 'Email JS' ],
     github: 'https://github.com/netitov/portfoilio',
   },
@@ -65,5 +76,6 @@ export const cards = [
     descriptionEn: 'App for administration illustrator portfolio site: upload and deleting illustrations; view image stats',
     techs: ['React', 'Express', 'MongoDB'],
     github: 'https://github.com/netitov/portfolio-admin',
-  }
+  },
+
 ];
