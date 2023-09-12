@@ -20,6 +20,7 @@ html{
   font-size: 16px;
   color: var(--main-grey);
   overflow: hidden;
+  animation: fade-in 0.8s;
 }
 
 .page-limits {
@@ -29,12 +30,21 @@ html{
   animation: opacity 1.5s;
 }
 
-@keyframes opacity {
+@keyframes fade-in {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 

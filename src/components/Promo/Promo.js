@@ -1,13 +1,27 @@
-import React from 'react';
+import React from "react";
+import { motion } from "framer-motion";
 
 function Promo() {
   return (
-    <div className='promo'>
-      <div className='promo__container'>
-        <p className='promo__name'>Nikita Titov</p>
-        <h1 className='promo__heading'>FRONT-END DEVELOPER</h1>
-        <p className='promo__description'>Here you can find some of my latest works<br/> Scroll down to view them</p>
-        <a className="promo__circle-wrapper" to="/#contact" title="go to the works">
+    <div className="promo">
+      <div className="promo__container">
+        <motion.p
+          className="promo__name"
+          animate={{ y: 0 }}
+          initial={{ y: "100%" }}
+          transition={{
+            delay: 0.2,
+            duration: 1,
+            type: "spring",
+            bounce: 0.4,
+          }}
+        >
+          Nikita Titov
+        </motion.p>
+        <h1 className="promo__heading">FRONT-END DEVELOPER</h1>
+        <p className="promo__description">Here you can find some of my latest works<br/> Scroll down to view them</p>
+        <a className="promo__circle-wrapper" to="/#contact" title="go to the works"
+        >
           <svg viewBox="0 0 100 100" className="promo__circle usage__circle">
             <defs>
               <path
@@ -25,7 +39,7 @@ function Promo() {
               </textPath>
             </text>
           </svg>
-      </a>
+        </a>
       </div>
 
     </div>

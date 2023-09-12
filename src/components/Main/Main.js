@@ -8,7 +8,7 @@ function Main() {
       <h2 className="main__heading">WORKS</h2>
 
       <div className="main__card-list">
-        {cards.slice(0,4).map((i) => {
+        {cards.slice(0,4).map((i, index) => {
           return (
             <Card
               title={i.title}
@@ -18,6 +18,7 @@ function Main() {
               techs={i.techs}
               github={i.github}
               key={i.title}
+              x={(index % 2 === 0) ? '100%' : '-100%'}
             />
           )
         })}

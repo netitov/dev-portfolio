@@ -11,7 +11,6 @@ function App() {
       <Promo />
       <Main />
       <Contacts />
-
     </div>
   );
 }
